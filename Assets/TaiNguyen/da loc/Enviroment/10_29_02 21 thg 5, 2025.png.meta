@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 720
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,10 +128,10 @@ TextureImporter:
       name: 10_29_02 21 thg 5, 2025_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 532
-        height: 571
+        x: 39
+        y: 75
+        width: 954
+        height: 925
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,12 +150,12 @@ TextureImporter:
       name: 10_29_02 21 thg 5, 2025_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 520
-        width: 486
-        height: 499
+        x: 136
+        y: 607
+        width: 307
+        height: 376
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,7 +177,7 @@ TextureImporter:
         width: 232
         height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,55 +190,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: 10_29_02 21 thg 5, 2025_3
-      rect:
-        serializedVersion: 2
-        x: 507
-        y: 359
-        width: 515
-        height: 652
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 26bb0c04fd0c880a0800000000000000
-      internalID: -6879036365711819934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_29_02 21 thg 5, 2025_4
-      rect:
-        serializedVersion: 2
-        x: 539
-        y: 0
-        width: 475
-        height: 429
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 10dbdd281c5dfba90800000000000000
-      internalID: -7295877844215939839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3a587e5a79d9b6243a52296784eaf9c1
     internalID: 0
     vertices: []
     indices: 
@@ -247,7 +203,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      10_29_02 21 thg 5, 2025_0: 8525522527778431653
+      10_29_02 21 thg 5, 2025_1: 235808212849752120
+      10_29_02 21 thg 5, 2025_2: 6297321851908680349
+      10_29_02 21 thg 5, 2025_3: -6879036365711819934
+      10_29_02 21 thg 5, 2025_4: -7295877844215939839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

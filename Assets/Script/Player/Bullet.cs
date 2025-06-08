@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
    
     private void OnEnable()
     {
+        AudioManager.Instance.PlayAuShoot();
         StartCoroutine(DeactiveAffterTime());
     }
     void Start()
@@ -17,14 +18,19 @@ public class Bullet : MonoBehaviour
     }
     private void FixedUpdate()
     {
-
             _rb.linearVelocity = this.transform.right * -_speed;
-        
     }
     IEnumerator DeactiveAffterTime()
     {   
         yield return new WaitForSeconds(2);
-        this.gameObject.transform.position = _rb.linearVelocity;
         this.gameObject.SetActive(false);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision != null)
+        {
+            this.gameObject.SetActive(false);
+        }
+    }
+
 }

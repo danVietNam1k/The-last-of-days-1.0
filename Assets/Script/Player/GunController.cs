@@ -3,12 +3,9 @@ using UnityEngine;
 
 public class GunController : MonoBehaviour 
 {
-    Transform _look;
     Animator _gunAnimator;
-    
     void Start()
     {
-        _look = this.transform;
         _gunAnimator = GetComponent<Animator>();
     }
 
@@ -28,6 +25,7 @@ public class GunController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.R))
         {
+            AudioManager.Instance.PlayAuReloadGun();
             _gunAnimator.SetBool(CONSTANT.GunFire, false);
             _gunAnimator.SetBool(CONSTANT.GunReloading, true);
         }
@@ -38,15 +36,17 @@ public class GunController : MonoBehaviour
            
         }
         }
-
-    void LookMouse()
+     public void LookMouse()
     {
+        //Debug.Log(this.transform.rotation);
         Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        Vector3 lookFollowingMouse = this.transform.position - pos;
-        float angle = Mathf.Atan2(lookFollowingMouse.y, lookFollowingMouse.x) * Mathf.Rad2Deg;
-        Quaternion lookRotation = _look.rotation;
+        //Vector3 lookFollowingMouse = this.transform.position - pos;
+        //float angle = Mathf.Atan2(lookFollowingMouse.y, lookFollowingMouse.x) * Mathf.Rad2Deg;
+        float angle =Funtion1.AngleThis2Mouse(this.transform.position);
+        Quaternion lookRotation = this.transform.rotation;
         lookRotation.eulerAngles = new Vector3(0, 0, angle);
-        _look.rotation = lookRotation;
+        this.transform.rotation = lookRotation;
+        //Debug.LogError(this.transform.rotation);
 
         if (pos.x - this.transform.position.x > 0)
         {

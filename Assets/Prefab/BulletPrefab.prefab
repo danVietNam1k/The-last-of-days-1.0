@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1791643033159707762}
   m_Layer: 8
   m_Name: BulletPrefab
-  m_TagString: Untagged
+  m_TagString: bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37619ff516fc1a418bf926eb67f939e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 100
+  _speed: 20
 --- !u!212 &5689892166362749747
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.03333333
+        value: 0.07874349
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -277,7 +277,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0

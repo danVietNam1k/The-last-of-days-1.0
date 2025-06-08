@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -84,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,20 +149,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 6
-        width: 18
-        height: 23
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5f136b057189db50800000000000000
-      internalID: 6618463467099856732
+      spriteID: 0a9849784fbc75e43b5569ef82aba943
+      internalID: 1999373731
       vertices: []
       indices: 
       edges: []
@@ -171,20 +171,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 6
-        width: 18
-        height: 23
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bfc7e2f7f88c85b00800000000000000
-      internalID: 817623851007376635
+      spriteID: ccd8e228984b9a741823703680a49181
+      internalID: 995219864
       vertices: []
       indices: 
       edges: []
@@ -193,20 +193,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_2
       rect:
         serializedVersion: 2
-        x: 69
-        y: 6
-        width: 18
-        height: 24
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5b7b51264b705c640800000000000000
-      internalID: 5099490624388052917
+      spriteID: eccc257d02c1a2d47bdc76bd3884a46f
+      internalID: -540378410
       vertices: []
       indices: 
       edges: []
@@ -215,20 +215,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_3
       rect:
         serializedVersion: 2
-        x: 101
-        y: 6
-        width: 18
-        height: 24
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 97fdf6d50c20477f0800000000000000
-      internalID: -615864223818326151
+      spriteID: aef95911b582ce545a6ef547b6a8aae5
+      internalID: -1140960725
       vertices: []
       indices: 
       edges: []
@@ -237,20 +237,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_4
       rect:
         serializedVersion: 2
-        x: 133
-        y: 6
-        width: 18
-        height: 23
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 201e15946898761a0800000000000000
-      internalID: -6816328301153230590
+      spriteID: c0b18c826f5d3704696a1a36010fb496
+      internalID: -832884620
       vertices: []
       indices: 
       edges: []
@@ -259,20 +259,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_5
       rect:
         serializedVersion: 2
-        x: 165
-        y: 6
-        width: 18
-        height: 23
+        x: 160
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87c5d7da6a3b035f0800000000000000
-      internalID: -778925207078478728
+      spriteID: b4294ee4ba8b2424584a86a72bf94281
+      internalID: -539666705
       vertices: []
       indices: 
       edges: []
@@ -281,20 +281,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_6
       rect:
         serializedVersion: 2
-        x: 201
-        y: 6
-        width: 18
-        height: 23
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 755627c2f246992b0800000000000000
-      internalID: -5577316509749713577
+      spriteID: c406ebaf4f713124e97d852782c4331d
+      internalID: 638199734
       vertices: []
       indices: 
       edges: []
@@ -303,20 +303,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_7
       rect:
         serializedVersion: 2
-        x: 233
-        y: 6
-        width: 18
-        height: 23
+        x: 224
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4f7fb99e8f6a30280800000000000000
-      internalID: -9078228835847374860
+      spriteID: dad491905623dee40a5bbaa4bc7cd680
+      internalID: 2068911143
       vertices: []
       indices: 
       edges: []
@@ -325,20 +325,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_8
       rect:
         serializedVersion: 2
-        x: 265
-        y: 6
-        width: 18
-        height: 24
+        x: 256
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 16f1d1635b235ae20800000000000000
-      internalID: 3361148450780290913
+      spriteID: 8e929ddffac1d8247a6f2ba90786f5fb
+      internalID: -69973988
       vertices: []
       indices: 
       edges: []
@@ -347,20 +347,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_9
       rect:
         serializedVersion: 2
-        x: 297
-        y: 6
-        width: 18
-        height: 24
+        x: 288
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e0288a66ef975e380800000000000000
-      internalID: -8942607351523278322
+      spriteID: d6495f479e8fa2c41b8a213dae58c8c1
+      internalID: 617217527
       vertices: []
       indices: 
       edges: []
@@ -369,20 +369,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_10
       rect:
         serializedVersion: 2
-        x: 329
-        y: 6
-        width: 18
-        height: 23
+        x: 320
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ee651f37d2440b450800000000000000
-      internalID: 6102452457096435438
+      spriteID: 67bedbd11bce68247b1c8b1401619abc
+      internalID: 1297641652
       vertices: []
       indices: 
       edges: []
@@ -391,20 +391,20 @@ TextureImporter:
       name: Amelia_sit2_16x16_11
       rect:
         serializedVersion: 2
-        x: 361
-        y: 6
-        width: 18
-        height: 23
+        x: 352
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2dd34a66a7cbe4990800000000000000
-      internalID: -7399769903829074478
+      spriteID: 46e7eeb2d22c77d4dbdd30b2ad12e560
+      internalID: 1260611874
       vertices: []
       indices: 
       edges: []
@@ -413,7 +413,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 126dcaf5c5e55e64d860638e022f4b94
     internalID: 0
     vertices: []
     indices: 
@@ -422,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Amelia_sit2_16x16_0: 1999373731
+      Amelia_sit2_16x16_1: 995219864
+      Amelia_sit2_16x16_10: 1297641652
+      Amelia_sit2_16x16_11: 1260611874
+      Amelia_sit2_16x16_2: -540378410
+      Amelia_sit2_16x16_3: -1140960725
+      Amelia_sit2_16x16_4: -832884620
+      Amelia_sit2_16x16_5: -539666705
+      Amelia_sit2_16x16_6: 638199734
+      Amelia_sit2_16x16_7: 2068911143
+      Amelia_sit2_16x16_8: -69973988
+      Amelia_sit2_16x16_9: 617217527
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

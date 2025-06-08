@@ -97,7 +97,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -111,7 +111,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -176,12 +176,12 @@ TextureImporter:
       name: FreePack_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 255
-        width: 41
-        height: 119
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 15
+        y: 256
+        width: 39
+        height: 117
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,12 +198,12 @@ TextureImporter:
       name: FreePack_1
       rect:
         serializedVersion: 2
-        x: 77
-        y: 255
-        width: 37
-        height: 122
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 78
+        y: 256
+        width: 35
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -220,12 +220,12 @@ TextureImporter:
       name: FreePack_2
       rect:
         serializedVersion: 2
-        x: 129
-        y: 255
-        width: 95
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 130
+        y: 256
+        width: 93
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,12 +242,12 @@ TextureImporter:
       name: FreePack_3
       rect:
         serializedVersion: 2
-        x: 225
-        y: 255
-        width: 94
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 226
+        y: 256
+        width: 92
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -264,12 +264,12 @@ TextureImporter:
       name: FreePack_4
       rect:
         serializedVersion: 2
-        x: 324
-        y: 255
-        width: 59
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 325
+        y: 256
+        width: 57
+        height: 62
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -286,12 +286,12 @@ TextureImporter:
       name: FreePack_5
       rect:
         serializedVersion: 2
-        x: 420
-        y: 290
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 421
+        y: 291
+        width: 20
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -308,12 +308,12 @@ TextureImporter:
       name: FreePack_6
       rect:
         serializedVersion: 2
-        x: 456
-        y: 293
-        width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 457
+        y: 294
+        width: 14
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -330,12 +330,12 @@ TextureImporter:
       name: FreePack_7
       rect:
         serializedVersion: 2
-        x: 482
-        y: 291
-        width: 28
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 483
+        y: 292
+        width: 26
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -352,12 +352,12 @@ TextureImporter:
       name: FreePack_8
       rect:
         serializedVersion: 2
-        x: 422
-        y: 260
-        width: 19
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 423
+        y: 261
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -374,12 +374,12 @@ TextureImporter:
       name: FreePack_9
       rect:
         serializedVersion: 2
-        x: 457
-        y: 260
-        width: 14
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 458
+        y: 261
+        width: 12
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -396,12 +396,12 @@ TextureImporter:
       name: FreePack_10
       rect:
         serializedVersion: 2
-        x: 489
-        y: 255
-        width: 15
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 490
+        y: 256
+        width: 13
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -418,12 +418,12 @@ TextureImporter:
       name: FreePack_11
       rect:
         serializedVersion: 2
-        x: 6
-        y: 127
-        width: 90
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 7
+        y: 128
+        width: 88
+        height: 119
+      alignment: 9
+      pivot: {x: 0.51042676, y: 0.26216075}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -440,12 +440,12 @@ TextureImporter:
       name: FreePack_12
       rect:
         serializedVersion: 2
-        x: 129
-        y: 127
-        width: 59
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 130
+        y: 128
+        width: 57
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -462,12 +462,12 @@ TextureImporter:
       name: FreePack_13
       rect:
         serializedVersion: 2
-        x: 196
-        y: 127
-        width: 58
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 197
+        y: 128
+        width: 56
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -484,12 +484,12 @@ TextureImporter:
       name: FreePack_14
       rect:
         serializedVersion: 2
-        x: 261
-        y: 127
-        width: 52
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 262
+        y: 128
+        width: 50
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -506,12 +506,12 @@ TextureImporter:
       name: FreePack_15
       rect:
         serializedVersion: 2
-        x: 399
-        y: 143
-        width: 103
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 400
+        y: 144
+        width: 101
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -528,12 +528,12 @@ TextureImporter:
       name: FreePack_16
       rect:
         serializedVersion: 2
-        x: 4
+        x: 5
         y: 0
-        width: 58
-        height: 112
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 56
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -550,12 +550,12 @@ TextureImporter:
       name: FreePack_17
       rect:
         serializedVersion: 2
-        x: 104
+        x: 105
         y: 0
-        width: 49
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 47
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -572,12 +572,12 @@ TextureImporter:
       name: FreePack_18
       rect:
         serializedVersion: 2
-        x: 201
+        x: 202
         y: 0
-        width: 49
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 47
+        height: 112
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -594,12 +594,12 @@ TextureImporter:
       name: FreePack_19
       rect:
         serializedVersion: 2
-        x: 293
+        x: 294
         y: 0
-        width: 61
-        height: 109
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 59
+        height: 108
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -616,12 +616,12 @@ TextureImporter:
       name: FreePack_20
       rect:
         serializedVersion: 2
-        x: 389
-        y: 10
-        width: 120
-        height: 104
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 390
+        y: 11
+        width: 117
+        height: 102
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -638,7 +638,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7bf42cc0c1c270a43af97949eb942428
     internalID: 0
     vertices: []
     indices: 
@@ -647,7 +647,28 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FreePack_0: -7487882560877789140
+      FreePack_1: 4903099407256252547
+      FreePack_10: -3463354933243899461
+      FreePack_11: -8764965426705603438
+      FreePack_12: 939264097576087446
+      FreePack_13: 6036934334336894495
+      FreePack_14: -6936057987443640182
+      FreePack_15: -2015156786378593274
+      FreePack_16: -3782032975704049256
+      FreePack_17: -7910195237937851234
+      FreePack_18: 1820245197975899975
+      FreePack_19: -6091981265946106432
+      FreePack_2: -5062081054402078237
+      FreePack_20: -1787317447362759218
+      FreePack_3: 1695292101499232445
+      FreePack_4: -1400023059284977056
+      FreePack_5: 231327564077186981
+      FreePack_6: -7066154344053807571
+      FreePack_7: 7665148347240279577
+      FreePack_8: -4241286239443518935
+      FreePack_9: 3349166632371518244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

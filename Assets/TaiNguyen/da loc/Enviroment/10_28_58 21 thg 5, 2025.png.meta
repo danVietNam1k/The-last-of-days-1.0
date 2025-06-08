@@ -79,7 +79,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 720
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -158,12 +158,12 @@ TextureImporter:
       name: 10_28_58 21 thg 5, 2025_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 0
-        width: 1016
-        height: 1019
+        x: 585
+        y: 609
+        width: 439
+        height: 377
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -180,10 +180,10 @@ TextureImporter:
       name: 10_28_58 21 thg 5, 2025_1
       rect:
         serializedVersion: 2
-        x: 138
-        y: 103
-        width: 7
-        height: 7
+        x: 672
+        y: 298
+        width: 294
+        height: 291
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: 10_28_58 21 thg 5, 2025_2
       rect:
         serializedVersion: 2
-        x: 283
-        y: 95
-        width: 6
-        height: 9
+        x: 9
+        y: 11
+        width: 1015
+        height: 980
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,81 +221,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_3
-      rect:
-        serializedVersion: 2
-        x: 505
-        y: 95
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1507cf1e579d9bc0800000000000000
-      internalID: -3774694482150750950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_4
-      rect:
-        serializedVersion: 2
-        x: 524
-        y: 87
-        width: 13
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2dace5b451d09e7d0800000000000000
-      internalID: -2888763300871484718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_5
-      rect:
-        serializedVersion: 2
-        x: 526
-        y: 94
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 764ec65ecdc3aa2b0800000000000000
-      internalID: -5572574669477976985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: 10_28_58 21 thg 5, 2025_6
       rect:
         serializedVersion: 2
-        x: 530
-        y: 51
-        width: 338
-        height: 241
+        x: 567
+        y: 72
+        width: 278
+        height: 225
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -308,187 +242,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_7
-      rect:
-        serializedVersion: 2
-        x: 575
-        y: 39
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5f130bec880568f30800000000000000
-      internalID: 4577434619782115829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_8
-      rect:
-        serializedVersion: 2
-        x: 581
-        y: 55
-        width: 13
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bb9c43c9eb503ecc0800000000000000
-      internalID: -3683093754036303429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_9
-      rect:
-        serializedVersion: 2
-        x: 592
-        y: 79
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6755788855592d0d0800000000000000
-      internalID: -3399490574115973770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_10
-      rect:
-        serializedVersion: 2
-        x: 595
-        y: 63
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 98e90ab9f651b8f20800000000000000
-      internalID: 3425855510641942153
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_11
-      rect:
-        serializedVersion: 2
-        x: 673
-        y: 63
-        width: 14
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b19c275f897b5bd0800000000000000
-      internalID: -2640383099972841039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_12
-      rect:
-        serializedVersion: 2
-        x: 770
-        y: 79
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1b04035f293b94f20800000000000000
-      internalID: 3407452036842668209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_13
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 65
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 832332c41bef6d2a0800000000000000
-      internalID: -6712898157109104072
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 10_28_58 21 thg 5, 2025_14
-      rect:
-        serializedVersion: 2
-        x: 808
-        y: 63
-        width: 6
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27e041fb919ed3c90800000000000000
-      internalID: -7188333133424226702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 071d36f5e45864842a07345b9ecee67b
     internalID: 0
     vertices: []
     indices: 
@@ -497,7 +255,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      10_28_58 21 thg 5, 2025_0: 1853641798097651554
+      10_28_58 21 thg 5, 2025_1: 6864848227080884817
+      10_28_58 21 thg 5, 2025_10: 3425855510641942153
+      10_28_58 21 thg 5, 2025_11: -2640383099972841039
+      10_28_58 21 thg 5, 2025_12: 3407452036842668209
+      10_28_58 21 thg 5, 2025_13: -6712898157109104072
+      10_28_58 21 thg 5, 2025_14: -7188333133424226702
+      10_28_58 21 thg 5, 2025_2: 6400517094074611684
+      10_28_58 21 thg 5, 2025_3: -3774694482150750950
+      10_28_58 21 thg 5, 2025_4: -2888763300871484718
+      10_28_58 21 thg 5, 2025_5: -5572574669477976985
+      10_28_58 21 thg 5, 2025_6: 4829159869964587593
+      10_28_58 21 thg 5, 2025_7: 4577434619782115829
+      10_28_58 21 thg 5, 2025_8: -3683093754036303429
+      10_28_58 21 thg 5, 2025_9: -3399490574115973770
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

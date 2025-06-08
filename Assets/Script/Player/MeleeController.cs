@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MeleeController : MonoBehaviour
+public class MeleeController : GunController
 {
     Animator _actMelee;
     void Start()
@@ -11,11 +11,13 @@ public class MeleeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)) 
+        if(Input.GetMouseButtonDown(0)) { 
             _actMelee.SetBool(CONSTANT.meleeATK, true);
+        AudioManager.Instance.PlayAuMelee();
+        }
         else 
-            _actMelee.SetBool(CONSTANT.meleeATK, false); 
+            _actMelee.SetBool(CONSTANT.meleeATK, false);
 
-
+        LookMouse();
     }
 }

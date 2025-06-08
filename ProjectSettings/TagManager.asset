@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 3
   tags:
   - House
+  - Ground
+  - Enemy
+  - weapon
+  - HeadEnemy
+  - BodyEnemy
+  - bullet
+  - melle
+  - atkEnemy
   layers:
   - Default
   - TransparentFX
@@ -15,14 +23,14 @@ TagManager:
   - Player
   - House
   - bullet
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Gound
+  - Enemy
+  - checkCollider
+  - bodyCollder
+  - HeadCollider
+  - AtkPlayer
+  - atkEnemies
+  - BoxBoss
   - 
   - 
   - 
@@ -42,7 +50,10 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Player
+  - name: Ground
+    uniqueID: 1972629923
+    locked: 0
+  - name: Obtacle
     uniqueID: 1806118481
     locked: 0
   m_RenderingLayers:
