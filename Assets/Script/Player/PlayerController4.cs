@@ -64,7 +64,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         if (collision.CompareTag("atkEnemy"))
         {
             TakeDame(40);
-            Debug.Log(_hp);
+            //Debug.Log(_hp);
         }
     }
 
